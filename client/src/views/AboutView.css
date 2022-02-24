@@ -1,0 +1,15 @@
+.aboutview {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.aboutview > p {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.aboutview__text {
+  text-align: center;
+}

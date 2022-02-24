@@ -1,0 +1,23 @@
+{
+  "name": "mern-game-shop2",
+  "version": "1.0.0",
+  "description": "MERN game shop",
+  "main": "server.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "start": "node server.js"
+  },
+  "author": "Dorine van Belzen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "latest-version": "^6.0.0",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
