@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const connectToDatabase = require('./config/database');
 const productRoutes = require('./routes/products');
-const path = require('path');
 
 connectToDatabase();
 
